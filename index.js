@@ -6,7 +6,7 @@ const PORT      = process.env.PORT || 5000;
 const dialogFlowRoutes = require('./src/routes/dialogFlow');
 
 
-app.use(bodyParser.json());
+app.use(bodyParser.json({extended:true}));
 
 app.use('/api/df/', dialogFlowRoutes);
 
