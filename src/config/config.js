@@ -1,9 +1,6 @@
 const dotenv = require('dotenv').config();
 
-<<<<<<< HEAD
 console.log("Environment "+process.env.ENV);
-=======
->>>>>>> 0ebc8f73890f8542db348c31c678b600a898fe61
 //JSON.parse added specifically for escaping \\n character 
 module.exports ={
     googleProjectId                 : process.env[process.env.ENV+"_GOOGLE_PROJECT_ID"],
