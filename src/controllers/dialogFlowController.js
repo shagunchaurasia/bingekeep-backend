@@ -8,7 +8,7 @@ const credentials = {
     private_key  : config.googlePrivateKey
 }
 
-console.log(credentials);
+// console.log(credentials);
 
 
 const sessionClient = new dialogFlow.SessionsClient({projectId:googleProjectId,credentials: credentials});
