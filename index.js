@@ -1,8 +1,8 @@
 const express       = require('express');
 const app           = express();
 const bodyParser    = require('body-parser');
-const PORT      = process.env.PORT || 5000;
-
+const PORT          = process.env.PORT || 5000;
+const config        = require('./src/config/config');
 const dialogFlowRoutes = require('./src/routes/dialogFlow');
 
 
